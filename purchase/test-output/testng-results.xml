@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19923" started-at="2019-01-30T06:50:32Z" finished-at="2019-01-30T06:50:52Z">
+  <suite name="Default suite" duration-ms="33276" started-at="2019-01-30T10:23:45Z" finished-at="2019-01-30T10:24:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19923" started-at="2019-01-30T06:50:32Z" finished-at="2019-01-30T06:50:52Z">
-      <class name="PurchaseMoudle.SmokeTest">
-        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:PurchaseMoudle.SmokeTest@27c20538]" name="beforeEachTest" is-config="true" duration-ms="5312" started-at="2019-01-30T06:50:32Z" finished-at="2019-01-30T06:50:38Z">
+    <test name="Default test" duration-ms="33276" started-at="2019-01-30T10:23:45Z" finished-at="2019-01-30T10:24:18Z">
+      <class name="PurchaseMoudle.MainTests">
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:PurchaseMoudle.MainTests@27c20538]" name="beforeEachTest" is-config="true" duration-ms="5169" started-at="2019-01-30T10:23:45Z" finished-at="2019-01-30T10:23:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="homework()[pri:0, instance:PurchaseMoudle.SmokeTest@27c20538]" name="homework" duration-ms="8776" started-at="2019-01-30T06:50:38Z" finished-at="2019-01-30T06:50:47Z">
+        <test-method status="PASS" signature="FinalTests()[pri:0, instance:PurchaseMoudle.MainTests@27c20538]" name="FinalTests" duration-ms="22331" started-at="2019-01-30T10:23:50Z" finished-at="2019-01-30T10:24:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homework -->
-        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:PurchaseMoudle.SmokeTest@27c20538]" name="afterEachTest" is-config="true" duration-ms="5780" started-at="2019-01-30T06:50:47Z" finished-at="2019-01-30T06:50:52Z">
+        </test-method> <!-- FinalTests -->
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:PurchaseMoudle.MainTests@27c20538]" name="afterEachTest" is-config="true" duration-ms="5727" started-at="2019-01-30T10:24:12Z" finished-at="2019-01-30T10:24:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTest -->
-      </class> <!-- PurchaseMoudle.SmokeTest -->
+      </class> <!-- PurchaseMoudle.MainTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

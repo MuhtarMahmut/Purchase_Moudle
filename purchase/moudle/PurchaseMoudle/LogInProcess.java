@@ -23,7 +23,9 @@ public class LogInProcess extends testbase1 {
 	
 	static    @FindBy(xpath = ".//*[@id='wrapwrap']/main/div/form/div[4]/button")
 		    WebElement singinButton;
-
+	
+	static	  @FindBy(xpath="//span[contains(text(),'Purchases')]")
+			WebElement purchaseMoudle;
 
 	    public static void Managerlogin() {
 	        driver.get("http://52.39.162.23/web/login");
@@ -38,6 +40,9 @@ public class LogInProcess extends testbase1 {
 	       	    
 	        wait.until(ExpectedConditions.visibilityOf(singinButton));
 	        singinButton.click();
+	        
+	        wait.until(ExpectedConditions.visibilityOf(purchaseMoudle));
+	        purchaseMoudle.click();
 	       
 	    }
 	    public static void Userlogin() {

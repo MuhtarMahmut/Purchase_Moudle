@@ -10,11 +10,10 @@ import org.testng.annotations.BeforeMethod;
 import java.util.concurrent.TimeUnit;
 
 public class testbase1 {
-
+	
+	public static WebDriverWait wait;
     public static WebDriver driver;
     public static Faker faker;
-    public static WebDriverWait wait;
-    public static Actions act;
     public static myLibrary mylib;
 
     @BeforeMethod
