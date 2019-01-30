@@ -12,20 +12,20 @@ public class LogInProcess extends testbase1 {
 	static LogInProcess obj=PageFactory.initElements(driver, LogInProcess.class);
 	static credentials infos= new credentials();
 		
-			@FindBy(xpath = "html/body/div[1]/div/div[2]/a[2]")
+	static	@FindBy(xpath = "html/body/div[1]/div/div[2]/a[2]")
 		    WebElement firstClick;
 	
-		    @FindBy(xpath = ".//*[@id='login']")
+	static	    @FindBy(xpath = ".//*[@id='login']")
 		    WebElement email;
 	
-		    @FindBy(xpath = ".//*[@id='password']")
+	static    @FindBy(xpath = ".//*[@id='password']")
 		    WebElement password;
 	
-		    @FindBy(xpath = ".//*[@id='wrapwrap']/main/div/form/div[4]/button")
+	static    @FindBy(xpath = ".//*[@id='wrapwrap']/main/div/form/div[4]/button")
 		    WebElement singinButton;
 
 
-	    public void Managerlogin() {
+	    public static void Managerlogin() {
 	        driver.get("http://52.39.162.23/web/login");
 	        wait.until(ExpectedConditions.visibilityOf(firstClick));
 	        firstClick.click();
@@ -40,7 +40,7 @@ public class LogInProcess extends testbase1 {
 	        singinButton.click();
 	       
 	    }
-	    public void Userlogin() {
+	    public static void Userlogin() {
 	    	driver.get("http://52.39.162.23/web/login");
 	        wait.until(ExpectedConditions.visibilityOf(firstClick));
 	        firstClick.click();

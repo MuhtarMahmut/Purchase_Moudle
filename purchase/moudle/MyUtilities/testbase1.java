@@ -34,9 +34,15 @@ public class testbase1 {
 
     @AfterMethod
     public void afterEachTest() {
-    	act.pause(3000).perform();
-        if (driver != null) 
-        		driver.quit();
+    	
+    	if (driver != null) {
+        	try {
+        		Thread.sleep(5000);
+        	} catch(Exception e) {
+        		e.getStackTrace();
+        	}
+            driver.quit();
+        }
         
     }
 }
