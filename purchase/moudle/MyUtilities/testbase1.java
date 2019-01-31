@@ -1,8 +1,6 @@
 package MyUtilities;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
 import java.util.concurrent.TimeUnit;
@@ -15,9 +13,7 @@ public class testbase1 {
 
     @BeforeMethod
     public void beforeEachTest() {
-
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        driver = Driver.getDriver();
         mylib=new myLibrary(driver);
         driver.manage().window().maximize();
         wait=new WebDriverWait(driver, 10);
@@ -29,15 +25,7 @@ public class testbase1 {
 
     @AfterMethod
     public void afterEachTest() {
-    	
-    	if (driver != null) {
-        	try {
-        		Thread.sleep(5000);
-        	} catch(Exception e) {
-        		e.getStackTrace();
-        	}
-            driver.quit();
-        }
-        
+    	mylib.sleeps(2);
+    	 Driver.closeDriver();
     }
 }
