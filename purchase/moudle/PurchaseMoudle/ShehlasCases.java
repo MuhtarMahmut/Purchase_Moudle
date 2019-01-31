@@ -1,11 +1,10 @@
 package PurchaseMoudle;
+
 import static PurchaseMoudle.NeededElements.*;
-
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
-
+import org.testng.annotations.*;
 import MyUtilities.Driver;
+
 public class ShehlasCases {
 	public ShehlasCases() {
 		PageFactory.initElements(Driver.getDriver(), NeededElements.class);	

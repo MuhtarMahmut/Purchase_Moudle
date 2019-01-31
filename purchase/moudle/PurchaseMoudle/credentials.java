@@ -1,23 +1,23 @@
 package PurchaseMoudle;
 
 public class credentials {
-	final private String ManagerEmail="in_pos_manager6@info.com", 
+	final private static String ManagerEmail="in_pos_manager6@info.com", 
 			 ManagerPassword="KjKtfgrs35",
 			 		UserEmail="in_pos_user5@info.com", UserPassword="KjKtfgrs41";
 	
-	 public String getManagerEmail() {
+	 public static String getManagerEmail() {
 		return ManagerEmail;
 	}
 
-	public String getManagerPassword() {
+	public static String getManagerPassword() {
 		return ManagerPassword;
 	}
 
-	public String getUserEmail() {
+	public static String getUserEmail() {
 		return UserEmail;
 	}
 
-	public String getUserPassword() {
+	public static String getUserPassword() {
 		return UserPassword;
 	} 
 

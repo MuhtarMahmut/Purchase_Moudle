@@ -1,14 +1,11 @@
 package PurchaseMoudle;
-import static MyUtilities.testbase1.driver;
-import static MyUtilities.testbase1.mylib;
+
 import static PurchaseMoudle.NeededElements.*;
-
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
+import MyUtilities.*;
 
-import MyUtilities.Driver;
-public class RayisasCases {
+public class RayisasCases extends testbase1{
 			
 	public RayisasCases() {
 		PageFactory.initElements(Driver.getDriver(), NeededElements.class);	

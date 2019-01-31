@@ -1,13 +1,9 @@
 package PurchaseMoudle;
 
 import static PurchaseMoudle.NeededElements.*;
-
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
-
-import MyUtilities.Driver;
-import MyUtilities.testbase1;
+import org.testng.annotations.*;
+import MyUtilities.*;
 
 public class IhtiparsCases extends testbase1{
 	public IhtiparsCases() {

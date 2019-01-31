@@ -2,8 +2,7 @@ package PurchaseMoudle;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.*;
-import MyUtilities.Driver;
-import MyUtilities.testbase1;
+import MyUtilities.*;
 
 public class NeededElements extends testbase1{
 	public NeededElements() {
