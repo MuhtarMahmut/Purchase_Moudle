@@ -29,11 +29,11 @@ public class IhtiparsCases extends testbase1{
 			
 		}
 		
-		@Test
+	//	@Test
 		public void Test2() {
 			
 		}
-		@Test
+	//	@Test
 		public void Test3() {
 			
 		}

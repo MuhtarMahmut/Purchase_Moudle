@@ -4,6 +4,7 @@ import static PurchaseMoudle.NeededElements.*;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.*;
 import MyUtilities.Driver;
+import MyUtilities.credentials;
 
 public class ShehlasCases {
 	public ShehlasCases() {

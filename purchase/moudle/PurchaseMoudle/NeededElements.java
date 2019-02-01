@@ -53,15 +53,14 @@ public class NeededElements extends testbase1{
 	
 	static @FindBy(xpath="//span[contains(text(),'Requests for Quotation')]")   WebElement RequestForQuota;
 	
-	static @FindBy(css="#o_field_input_91")   WebElement   VendorDropDown;
-	//*[@id="o_field_input_152"]
-	
 	static @FindBy(linkText="234")     WebElement RandomElementInVendor;
 	
-	static @FindBy(css="#modal_125 > div > div > div.modal-footer > button.btn.btn-sm.btn-primary")  WebElement confirmTheSave;
+	static @FindBy(xpath="//*[@id=\"modal_141\"]/div/div/div[3]/button[1]")  WebElement confirmTheSave;
+	
+	static @FindBy(xpath="/html/body/div[1]/div[2]/div[2]/div/div/div/div[1]/div[2]/div[2]/h1/span")  WebElement savedproductTags;
 	
 	
-	 
+
 	
 	
 }
