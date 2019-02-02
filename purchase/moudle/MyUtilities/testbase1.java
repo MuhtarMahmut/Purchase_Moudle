@@ -24,7 +24,7 @@ public class testbase1 {
 
     @AfterMethod
     public void afterEachTest() {
-    		 mylib.sleeps(2);
+    		 mylib.sleeps(3);
     	  Driver.closeDriver();
     }
 }

@@ -9,23 +9,18 @@ public class IhtiparsCases extends testbase1{
 	public IhtiparsCases() {
 		PageFactory.initElements(Driver.getDriver(), NeededElements.class);	
 	}
-	@BeforeMethod
-	public void settingup() {
-		new IhtiparsCases();
-		loginAsManager();	
-	}
+//	@BeforeMethod
+	// public void settingup() {
+	//	new IhtiparsCases();
+	//	loginAsManager();	
+	//  }
 
-		public void loginAsManager() {
-			driver.get("http://52.39.162.23/web/login");
-			firstClick.click();
-			email.sendKeys(credentials.getManagerEmail());	       
-			password.sendKeys(credentials.getManagerPassword());	       	    
-			singinButton.click();  mylib.sleeps(2);
-			purchaseMoudle.click();
-		}
 		
 		@Test
 		public void Test1() {
+			new IhtiparsCases();
+			loginAsManager();
+			CreateButton.click();
 			
 		}
 		

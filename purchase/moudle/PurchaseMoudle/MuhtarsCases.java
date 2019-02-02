@@ -21,6 +21,8 @@ public class MuhtarsCases extends testbase1 {
 		new MuhtarsCases();
 		loginAsManager();	
 		mylib.sleeps(2);
+		CreateButton.click();
+		wait.until(ExpectedConditions.visibilityOf(AddanItem));
 	}
 
 		public void loginAsManager() {
@@ -34,59 +36,59 @@ public class MuhtarsCases extends testbase1 {
 		
 		@Test
 	    public  void Test1() {
-	 	 CreateButton.click();		SaveButton.click();   
+	 		SaveButton.click();   
 		Assert.assertTrue(VendorErrorMessage.getText().contains("The following fields are invalid"));  
 	    }
 		
 	    @Test
 		public void Test2() {
-			   CreateButton.click();
 			OrderDateBox.click();		
 		}
 		
 		@Test
 		public void Test3() {
-			  CreateButton.click();    AddanItem.click(); 
-			WebElement subtotal=driver.findElement(By.xpath("span[@name='price_subtotal']"));
-			Assert.assertTrue(subtotal.isDisplayed());	
+		    AddanItem.click(); 
+			  mylib.sleeps(2);
+			Assert.assertTrue(Subtotal.isDisplayed());	
 		}
 		
 		@Test
 		public void Test4() {
-	   CreateButton.click();  AddanItem.click();  mylib.sleeps(1); 
+	    AddanItem.click();  mylib.sleeps(1); 
 			ProductDropDownBox.click();
 			new Actions(driver).moveToElement(RandomElementInProduct).click().perform();
 			Assert.assertTrue( UnitPrice.getText().isEmpty());
 		}
 		
-		@Test
+	 	@Test
 		public void Test5() {
-			CreateButton.click();		AddanItem.click();	
+			  	AddanItem.click();	
 			mylib.sleeps(1);   ProductDropDownBox.click();
 			new Actions(driver).moveToElement(RandomElementInProduct).click().perform();
-	WebElement AA=driver.findElement(By.xpath(".*[@class=\"o_field_float o_field_number o_field_widget o_input o_required_modifier\" and @name='product_qty']"));
+				
+	WebElement AA=driver.findElement(By.xpath(".//*[@class='o_field_float o_field_number o_field_widget o_input o_required_modifier' and @name='product_qty']"));
 			Assert.assertTrue(AA.isDisplayed());		
 		}
 		
-		@Test
+	 	@Test
 		public void Test6() {
-			CreateButton.click();		AddanItem.click();	  
+			AddanItem.click();	  
 			mylib.sleeps(1);   ProductDropDownBox.click();
 		new Actions(driver).moveToElement(RandomElementInProduct).click().perform();  DeleteTheAddedItem.click();	
 		}
 		
-		@Test
+	 	@Test
 		public void Test7() {
-		CreateButton.click();		AddanItem.click();	  mylib.sleeps(1);       ProductDropDownBox.click();
+		AddanItem.click();	  mylib.sleeps(1);       ProductDropDownBox.click();
 			new Actions(driver).moveToElement(RandomElementInProduct).click().perform();   
 			UnitPrice.sendKeys( Keys.CONTROL+"A"+Keys.BACK_SPACE);     UnitPrice.sendKeys("200");  
-			wait.until(ExpectedConditions.textToBePresentInElement(Total, "200.00"));
+			mylib.sleeps(2);
 			Assert.assertTrue(Total.getText().equals("200.00"));	
 		}
 		
 		@Test
 		public void Test8() {
-			CreateButton.click();		AddanItem.click();	  mylib.sleeps(1);       ProductDropDownBox.click();
+			AddanItem.click();	  mylib.sleeps(1);       ProductDropDownBox.click();
 			new Actions(driver).moveToElement(RandomElementInProduct).click().perform();   
 			UnitPrice.sendKeys( Keys.CONTROL+"A"+Keys.BACK_SPACE);     UnitPrice.sendKeys("200");  
 			wait.until(ExpectedConditions.textToBePresentInElement(Total, "200.00"));
@@ -96,14 +98,12 @@ public class MuhtarsCases extends testbase1 {
 		
 		@Test
 		public void Test9() {
-			CreateButton.click();		AddanItem.click();	  mylib.sleeps(1);       ProductDropDownBox.click();
-			new Actions(driver).moveToElement(RandomElementInProduct).click().perform(); 
-			List<WebElement> myele=driver.findElements(By.xpath(".*[@class='o_input ui-autocomplete-input' and @autocomplete='off']"));
+	AddanItem.click();	  mylib.sleeps(1);       ProductDropDownBox.click();
+			new Actions(driver).moveToElement(RandomElementInProduct).click().perform();   mylib.sleeps(2);
+			List<WebElement> myele=driver.findElements(By.xpath(".//*[@class='o_input ui-autocomplete-input' and @autocomplete='off']"));
 			myele.get(0).click();
 			RandomElementInVendor.click();
 			SaveButton.click();
-			RequestForQuota.click();
-			
 			}
 		
 		

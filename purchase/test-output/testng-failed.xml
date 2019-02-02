@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PurchaseMoudle.MainTests">
+      <class name="PurchaseMoudle.IhtiparsCases">
         <methods>
+          <include name="settingup"/>
+          <include name="Test1"/>
           <include name="beforeEachTest"/>
-          <include name="FinalTests"/>
           <include name="afterEachTest"/>
         </methods>
-      </class> <!-- PurchaseMoudle.MainTests -->
+      </class> <!-- PurchaseMoudle.IhtiparsCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

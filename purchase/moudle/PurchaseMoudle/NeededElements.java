@@ -59,7 +59,14 @@ public class NeededElements extends testbase1{
 	
 	static @FindBy(xpath="/html/body/div[1]/div[2]/div[2]/div/div/div/div[1]/div[2]/div[2]/h1/span")  WebElement savedproductTags;
 	
-	
+	public static void loginAsManager() {
+		driver.get("http://52.39.162.23/web/login");
+		firstClick.click();
+		email.sendKeys(credentials.getManagerEmail());	       
+		password.sendKeys(credentials.getManagerPassword());	       	    
+		singinButton.click();  mylib.sleeps(2);
+		purchaseMoudle.click();
+	}
 
 	
 	
