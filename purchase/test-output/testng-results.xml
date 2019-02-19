@@ -1,157 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="228211" started-at="2019-02-02T17:50:10Z" finished-at="2019-02-02T17:53:58Z">
+  <suite name="Default suite" duration-ms="22722" started-at="2019-02-11T01:56:52Z" finished-at="2019-02-11T01:57:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="228211" started-at="2019-02-02T17:50:10Z" finished-at="2019-02-02T17:53:58Z">
-      <class name="PurchaseMoudle.MuhtarsCases">
-        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="beforeEachTest" is-config="true" duration-ms="1316" started-at="2019-02-02T17:50:10Z" finished-at="2019-02-02T17:50:11Z">
+    <test name="Default test" duration-ms="22722" started-at="2019-02-11T01:56:52Z" finished-at="2019-02-11T01:57:15Z">
+      <class name="PurchaseMoudle.ZohrasCases">
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:PurchaseMoudle.ZohrasCases@544d57e]" name="beforeEachTest" is-config="true" duration-ms="1281" started-at="2019-02-11T01:56:52Z" finished-at="2019-02-11T01:56:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="settingup()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="settingup" is-config="true" duration-ms="13982" started-at="2019-02-02T17:50:11Z" finished-at="2019-02-02T17:50:25Z">
+        <test-method status="PASS" signature="settingup()[pri:0, instance:PurchaseMoudle.ZohrasCases@544d57e]" name="settingup" is-config="true" duration-ms="14266" started-at="2019-02-11T01:56:53Z" finished-at="2019-02-11T01:57:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- settingup -->
-        <test-method status="PASS" signature="Test1()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="Test1" duration-ms="281" started-at="2019-02-02T17:50:25Z" finished-at="2019-02-02T17:50:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test1 -->
-        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="afterEachTest" is-config="true" duration-ms="3795" started-at="2019-02-02T17:50:26Z" finished-at="2019-02-02T17:50:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTest -->
-        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="beforeEachTest" is-config="true" duration-ms="3864" started-at="2019-02-02T17:50:29Z" finished-at="2019-02-02T17:50:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="settingup()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="settingup" is-config="true" duration-ms="15478" started-at="2019-02-02T17:50:33Z" finished-at="2019-02-02T17:50:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- settingup -->
-        <test-method status="PASS" signature="Test2()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="Test2" duration-ms="289" started-at="2019-02-02T17:50:49Z" finished-at="2019-02-02T17:50:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test2 -->
-        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="afterEachTest" is-config="true" duration-ms="3806" started-at="2019-02-02T17:50:49Z" finished-at="2019-02-02T17:50:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTest -->
-        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="beforeEachTest" is-config="true" duration-ms="3773" started-at="2019-02-02T17:50:53Z" finished-at="2019-02-02T17:50:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="settingup()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="settingup" is-config="true" duration-ms="10784" started-at="2019-02-02T17:50:57Z" finished-at="2019-02-02T17:51:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- settingup -->
-        <test-method status="PASS" signature="Test3()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="Test3" duration-ms="2276" started-at="2019-02-02T17:51:07Z" finished-at="2019-02-02T17:51:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test3 -->
-        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="afterEachTest" is-config="true" duration-ms="3809" started-at="2019-02-02T17:51:10Z" finished-at="2019-02-02T17:51:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTest -->
-        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="beforeEachTest" is-config="true" duration-ms="3716" started-at="2019-02-02T17:51:14Z" finished-at="2019-02-02T17:51:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="settingup()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="settingup" is-config="true" duration-ms="24298" started-at="2019-02-02T17:51:17Z" finished-at="2019-02-02T17:51:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- settingup -->
-        <test-method status="PASS" signature="Test4()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="Test4" duration-ms="1933" started-at="2019-02-02T17:51:42Z" finished-at="2019-02-02T17:51:43Z">
+        <test-method status="PASS" signature="Test4()[pri:4, instance:PurchaseMoudle.ZohrasCases@544d57e]" name="Test4" duration-ms="1334" started-at="2019-02-11T01:57:08Z" finished-at="2019-02-11T01:57:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test4 -->
-        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="afterEachTest" is-config="true" duration-ms="3826" started-at="2019-02-02T17:51:43Z" finished-at="2019-02-02T17:51:47Z">
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:PurchaseMoudle.ZohrasCases@544d57e]" name="afterEachTest" is-config="true" duration-ms="5810" started-at="2019-02-11T01:57:09Z" finished-at="2019-02-11T01:57:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTest -->
-        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="beforeEachTest" is-config="true" duration-ms="3709" started-at="2019-02-02T17:51:47Z" finished-at="2019-02-02T17:51:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="settingup()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="settingup" is-config="true" duration-ms="20492" started-at="2019-02-02T17:51:51Z" finished-at="2019-02-02T17:52:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- settingup -->
-        <test-method status="PASS" signature="Test5()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="Test5" duration-ms="1842" started-at="2019-02-02T17:52:11Z" finished-at="2019-02-02T17:52:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test5 -->
-        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="afterEachTest" is-config="true" duration-ms="3770" started-at="2019-02-02T17:52:13Z" finished-at="2019-02-02T17:52:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTest -->
-        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="beforeEachTest" is-config="true" duration-ms="3661" started-at="2019-02-02T17:52:17Z" finished-at="2019-02-02T17:52:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="settingup()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="settingup" is-config="true" duration-ms="12309" started-at="2019-02-02T17:52:21Z" finished-at="2019-02-02T17:52:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- settingup -->
-        <test-method status="PASS" signature="Test6()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="Test6" duration-ms="1873" started-at="2019-02-02T17:52:33Z" finished-at="2019-02-02T17:52:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test6 -->
-        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="afterEachTest" is-config="true" duration-ms="3776" started-at="2019-02-02T17:52:35Z" finished-at="2019-02-02T17:52:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTest -->
-        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="beforeEachTest" is-config="true" duration-ms="3698" started-at="2019-02-02T17:52:39Z" finished-at="2019-02-02T17:52:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="settingup()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="settingup" is-config="true" duration-ms="14682" started-at="2019-02-02T17:52:42Z" finished-at="2019-02-02T17:52:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- settingup -->
-        <test-method status="PASS" signature="Test7()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="Test7" duration-ms="4271" started-at="2019-02-02T17:52:57Z" finished-at="2019-02-02T17:53:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test7 -->
-        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="afterEachTest" is-config="true" duration-ms="3767" started-at="2019-02-02T17:53:01Z" finished-at="2019-02-02T17:53:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTest -->
-        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="beforeEachTest" is-config="true" duration-ms="3662" started-at="2019-02-02T17:53:05Z" finished-at="2019-02-02T17:53:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="settingup()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="settingup" is-config="true" duration-ms="12110" started-at="2019-02-02T17:53:09Z" finished-at="2019-02-02T17:53:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- settingup -->
-        <test-method status="PASS" signature="Test8()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="Test8" duration-ms="3551" started-at="2019-02-02T17:53:21Z" finished-at="2019-02-02T17:53:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test8 -->
-        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="afterEachTest" is-config="true" duration-ms="3817" started-at="2019-02-02T17:53:24Z" finished-at="2019-02-02T17:53:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTest -->
-        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="beforeEachTest" is-config="true" duration-ms="3625" started-at="2019-02-02T17:53:28Z" finished-at="2019-02-02T17:53:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeEachTest -->
-        <test-method status="PASS" signature="settingup()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="settingup" is-config="true" duration-ms="17916" started-at="2019-02-02T17:53:32Z" finished-at="2019-02-02T17:53:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- settingup -->
-        <test-method status="PASS" signature="Test9()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="Test9" duration-ms="4603" started-at="2019-02-02T17:53:50Z" finished-at="2019-02-02T17:53:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test9 -->
-        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:PurchaseMoudle.MuhtarsCases@53b7f657]" name="afterEachTest" is-config="true" duration-ms="3785" started-at="2019-02-02T17:53:54Z" finished-at="2019-02-02T17:53:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTest -->
-      </class> <!-- PurchaseMoudle.MuhtarsCases -->
+      </class> <!-- PurchaseMoudle.ZohrasCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

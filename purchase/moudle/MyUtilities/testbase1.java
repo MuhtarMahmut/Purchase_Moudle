@@ -16,8 +16,8 @@ public class testbase1 {
         driver = Driver.getDriver();
         mylib=new myLibrary(driver);
         driver.manage().window().maximize();
-        wait=new WebDriverWait(driver, 10);
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        wait=new WebDriverWait(driver, 1000);
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         
 
     }
@@ -26,5 +26,6 @@ public class testbase1 {
     public void afterEachTest() {
     		 mylib.sleeps(3);
     	  Driver.closeDriver();
+    	  mylib.sleeps(2);
     }
 }
